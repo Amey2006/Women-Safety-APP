@@ -50,7 +50,7 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`
   ╔══════════════════════════════════════════╗
   ║     🛡️  SafeGuard Backend Server        ║
-  ║     Running on http://0.0.0.0:${PORT}      ║
+  ║     Running on http://0.0.0.0:${PORT}    ║
   ╚══════════════════════════════════════════╝
   `);
   console.log('  Available routes:');

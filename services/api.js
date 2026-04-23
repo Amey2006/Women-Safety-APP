@@ -3,7 +3,7 @@ import { Platform } from 'react-native';
 
 // ⚠️ Replace this IP with YOUR computer's local IP (run: hostname -I)
 // This ensures physical devices on the same WiFi can reach the backend.
-const LOCAL_IP = '10.20.62.129';
+const LOCAL_IP = '10.30.20.246';
 
 const getBaseUrl = () => {
   // Web browser can use localhost directly

@@ -11,6 +11,12 @@ import EmergencyContactsScreen from './screens/EmergencyContactsScreen';
 import IncidentReportScreen from './screens/IncidentReportScreen';
 import SettingsScreen from './screens/SettingsScreen';
 
+// import React from 'react';
+import LiveTrackingScreen from './screens/LiveTrackingScreen'; // adjust path if needed
+
+export default function App() {
+  return <LiveTrackingScreen />;
+}
 const Stack = createNativeStackNavigator();
 
 function AppNavigator() {
@@ -48,15 +54,15 @@ function AppNavigator() {
   );
 }
 
-export default function App() {
-  return (
-    <AuthProvider>
-      <NavigationContainer>
-        <AppNavigator />
-      </NavigationContainer>
-    </AuthProvider>
-  );
-}
+// export default function App() {
+//   return (
+//     <AuthProvider>
+//       <NavigationContainer>
+//         <AppNavigator />
+//       </NavigationContainer>
+//     </AuthProvider>
+//   );
+// }
 
 const styles = StyleSheet.create({
   loading: {
