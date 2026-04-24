@@ -3,7 +3,7 @@ import { View, ActivityIndicator, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { AuthProvider, useAuth } from './context/AuthContext';
-
+import AutomaticAudioScreen from "./screens/AutomaticAudioScreen"; // ✅
 import LoginScreen from './screens/LoginScreen';
 import SignUpScreen from './screens/SignUpScreen';
 import HomeScreen from './screens/HomeScreen';
@@ -14,8 +14,11 @@ import SettingsScreen from './screens/SettingsScreen';
 // import React from 'react';
 import LiveTrackingScreen from './screens/LiveTrackingScreen'; // adjust path if needed
 
+// export default function App() {
+//   return <LiveTrackingScreen />;
+// }\
 export default function App() {
-  return <LiveTrackingScreen />;
+  return <AutomaticAudioScreen />;
 }
 const Stack = createNativeStackNavigator();
 
